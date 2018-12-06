@@ -16,3 +16,6 @@ Remember that if you do the normal query from the Virgo database (GP2), this run
 Instead, what is very important in 008 is the new query provided by JOHN HELLY that is more efficient as it sorts the galaxyid in order to optimize the query. In this way I actuallty obtain 3 millions entry. I have also rewritten the algorithm to define the edge like in VIPERS paper. and I run it again both on VIPERS and GALFORM GP14.
 
 In the meantime I also run the edge in ../../PAU/code/read_something.ipynb on the snapnum 37 and 47 without any contraints descendent/progenitor.v Just as they are. So that we can say this is like observations and instead the plot from 008 is how actually the same population of galaxies move.
+
+
+009: Clean version of 008 I can read the fiole obtained from John Helly's query directly from a text file. Also, I applied to the colour magnitude the correct magnitude cuts at 22.5 (I use my COSMOLOGY functions to convert apparent in absolute magnitudes).
