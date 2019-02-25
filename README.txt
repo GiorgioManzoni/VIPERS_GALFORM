@@ -19,3 +19,7 @@ In the meantime I also run the edge in ../../PAU/code/read_something.ipynb on th
 
 
 009: Clean version of 008 I can read the fiole obtained from John Helly's query directly from a text file. Also, I applied to the colour magnitude the correct magnitude cuts at 22.5 (I use my COSMOLOGY functions to convert apparent in absolute magnitudes).
+
+011: Very important because I'm doing all the plots in the VIPERS paper again.
+
+014: I start working on the luminosity function coming from GALFORM in order to compare it to the luminosity function of VIPERS as comin from Fritz 2014. However I have just taken the important pieces of code and added to 011 (so that you can actually ignore 014).
