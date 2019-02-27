@@ -12,6 +12,8 @@ Remember that if you do the normal query from the Virgo database (GP2), this run
 007_PROGENITOR_VIPERSLIKE: From the merger three of GALFORM Gonzalez+14 I selected the galaxies at the snapnum 47 that redshift araund z=0.46 (that I call descendants) and following the main branch of the merger three I selected the progenitor at redshift 1.1 (snap 47) that is the highest redshift bin tht I used in VIPERS. Since the query is very long and it reaches the timeout limit of 18000 seconds I only obtain few objects (1591) instead of about 3 millions. I will optimize the query following John Helly's advice in 008.
 
 008_progenito_EDGE_egltools: In here I used a different package to query the database called eagleSqlTools (https://github.com/kyleaoman/eagleSqlTools) instead of the usual virgodb.py. But this doesn't change anything, it's just important because it can be run in COSMA while virgodb.py needs packages that are not present in cosma. By the way, virgodb.py can be find in the documentation webpage of the virgo database (http://virgodb.dur.ac.uk:8080/MyMillennium/Help?page=python/python). 
+--> potential plot for the paper: histogram with threshold indicated,
+
 
 Instead, what is very important in 008 is the new query provided by JOHN HELLY that is more efficient as it sorts the galaxyid in order to optimize the query. In this way I actuallty obtain 3 millions entry. I have also rewritten the algorithm to define the edge like in VIPERS paper. and I run it again both on VIPERS and GALFORM GP14.
 
